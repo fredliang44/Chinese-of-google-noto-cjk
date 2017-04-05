@@ -1,7 +1,38 @@
+网址：http://noto.googlecode.com/
+版本：1.002
+许可证：SIL Open Font License v1.1
+许可证文件：许可证
+
+注意：以前版本的CJK字体是在Apache 2下发行的
+执照。这是从版本1.002开始改为SIL OFL v1.1。
+
+描述：
+Noto CJK字体，支持简体中文，繁体中文，
+日语和韩语。支持的脚本是汉，平假名，片假名，
+韩文和博波莫夫。拉丁语，希腊语，Cyrllic和各种符号也是
+支持与CJK标准兼容。
+
+这个目录中的字体是由Google和Adobe开发的
+在Apache许可证版本2.0下作为开源发布。版权
+由Adobe持有，而名称上的商标由Google持有。
+
+本地修改：
+已经添加了Windows特定文件来解决Windows中的一个错误
+导致使用usWeight值小于250的任何字体来显示
+重量更重它们基于原始的OTF文件，并且是
+修改使用nototools / fix_noto_cjk_thin.py脚本。
+
+已添加README.formats文件，说明不同的格式
+提供及其特点和局限性。
 URL: http://noto.googlecode.com/
 Version: 1.002
 License: SIL Open Font License v1.1
 License File: LICENSE
+
+
+
+
+
 
 Note: prior releases of the CJK fonts were issued under the Apache 2
 license. This was changed to the SIL OFL v1.1 starting with Version 1.002.
