@@ -1,62 +1,62 @@
-Noto CJK is available in multiple formats which have different uses. Each of
-these font formats used below has the capability to display both horizontal
-and vertical forms where appropriate. Any of the fonts that support
-Japanese will also be able to support proportional kana.
+Noto CJK有多种格式，有不同的用途。每一个
+以下使用的这些字体格式具有横向显示的能力
+和垂直形式。任何支持的字体
+日本也将能够支持比例假名。
 
-Note: New in release 1.002 are 'Monospace' versions. These provide half-width
-instead of proportional widths for ASCII (U+0020 to U+007E) and the following
-characters: U+00A0, U+00A5, U+2011, and U+20A9. These come in two weights
-(Regular and Bold) for each of the four languages. These fonts have 'Mono' in
-the family name, e.g. 'Noto Sans Mono CJK {JP, KR, SC, TC}'.
+注意：1.002版的新版本是“Monospace”版本。这些提供半宽
+代替ASCII（U + 0020到U + 007E）的比例宽度和以下
+字符：U + 00A0，U + 00A5，U + 2011和U + 20A9。这些都有两个重量
+（常规和粗体）为四种语言。这些字体有“Mono”
+姓氏，例如“Noto Sans Mono CJK {JP，KR，SC，TC}”。
 
 
 Super OTC
 =========
-This packaging form carries the fonts for each of Simplified Chinese,
-Traditional Chinese, Japanese, and Korean multiplied by all 7 weights for
-each in one single font file. In addition, each language provides monospace
-versions in Regular and Bold weights. Once installed it will appear in font
-menus as 36 separate fonts. This format is the easiest to install of all the
-formats and takes the least space due to sharing between the 36 pieces.
+这种包装形式带有每种简体中文的字体，
+繁体中文，日文和韩文乘以所有7个权重
+每一个单一的字体文件。此外，每种语言都提供等值线
+普通和粗体重的版本。一旦安装，它将以字体显示
+菜单为36个独立字体。这种格式是最容易安装的
+格式化，占用最少的空间由于36块之间的共享。
 
-This format works on recent versions of Mac and Linux but 
-unfortunately Windows does not support it.
+这种格式适用于Mac和Linux的最新版本
+不幸的是Windows不支持它。
 
 OTC
 ===
-This packaging form carries the fonts for each of Simplified Chinese,
-Traditional Chinese, Japanese, and Korean in a single font file. Once
-installed it will appear in font menus as four or eight separate fonts. This
-format is the easiest to install and compared to installing separate fonts
-takes less space. There are 7 of these OTC font files with one for each weight
-from Thin to Black.
+这种包装形式带有每种简体中文的字体，
+繁体中文，日文和韩文在一个单一的字体文件。一旦
+安装它将在字体菜单中显示为四个或八个单独的字体。这个
+格式是最简单的安装和比较安装单独的字体
+占用更少的空间。这些OTC字体文件中有7个，每个重量有一个
+从薄到黑。
 
-Two of these files (Regular and Bold) also contain new 'Monospace' versions for
-each language. These files appear in font menus as eight separate fonts.
+其中两个文件（Regular和Bold）也包含新的“Monospace”版本
+每种语言这些文件在字体菜单中显示为八个独立的字体。
 
-This format works on recent versions of Mac and Linux but 
-unfortunately Windows does not support it.
+这种格式适用于Mac和Linux的最新版本
+不幸的是Windows不支持它。
 
-Multilingual OTF
+多语言OTF
 ================
-This packaging form has 4 language specific variants that have all the same
-glyph coverage as the OTC format but provide language coverage through the
-use of the OpenType 'locl' feature. In each of these font files there is a
-single default language which is used when the 'locl' feature isn't
-specified. There are 28 of these files (4 language default variants * 7
-weights).
+这种包装形式有4种语言特定的变体，全部相同
+字幕覆盖作为OTC格式，但提供语言覆盖
+使用OpenType'locl'功能。在每个这些字体文件中有一个
+当“locl”功能不用时使用的单一默认语言
+指定。这些文件中有28个（4种语言默认变体* 7
+重量）。
 
-Each language also provides Monospace variants in Regular and Bold. There are 8
-of these files (4 language default variants * 2 weights).
+每种语言还提供常规和粗体的等宽变体。有8个
+的这些文件（4种语言默认变体* 2个权重）。
 
-Region-specific OTF
+区域特定OTF
 ===================
-This packaging form provides monolingual subset versions of the fonts. There is
-a separate font file for each of Simplified Chinese, Traditional Chinese, 
-Japanese, and Korean. If you want to install one language only then this 
-would be the option to consider. It will have the smallest space requirement.
-It would also be the choice if you want to use the font on a system 
-(such as Windows) that doesn't support the OTC format and can’t use the OpenType 
-‘locl’ feature to select language.
+这种包装形式提供字体的单语子集版本。有
+一个单独的字体文件为每个简体中文，繁体中文，
+日语和韩语。如果你想安装一种语言，那么这个
+将是考虑的选择。它将具有最小的空间要求。
+如果您想在系统上使用字体，它也将成为您的选择
+（如Windows）不支持OTC格式，不能使用OpenType
+'locl'功能选择语言。
 
-The region-specific OTFs do not include the Monospace versions.
+区域特定的OTFs不包括Monospace版本。
